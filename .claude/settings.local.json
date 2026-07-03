@@ -6,7 +6,11 @@
       "Bash(git add *)",
       "Bash(git commit --amend -m 'caching: add task 0 BasicCache *)",
       "Bash(git push *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(python3 -m pycodestyle filtered_logger.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c 'm=__import__\\(\"filtered_logger\"\\); print\\(bool\\(m.__doc__\\), bool\\(m.filter_datum.__doc__\\), bool\\(m.RedactingFormatter.__doc__\\), bool\\(m.RedactingFormatter.format.__doc__\\)\\)')",
+      "Bash(python3 -c 'm=__import__\\(\"filtered_logger\"\\); print\\(all\\([m.__doc__, m.filter_datum.__doc__, m.RedactingFormatter.__doc__, m.RedactingFormatter.format.__doc__, m.get_logger.__doc__]\\)\\)')"
     ]
   }
 }
