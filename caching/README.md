@@ -45,16 +45,14 @@ Every caching class inherits from `BaseCaching`, which defines:
 
 ## Tasks
 
-| Task | File | Class | Policy |
-|------|------|-------|--------|
-| 0. Basic dictionary | `0-basic_cache.py` | `BasicCache` | No limit |
-| 1. FIFO caching | `1-fifo_cache.py` | `FIFOCache` | FIFO |
-| 2. LIFO Caching | `2-lifo_cache.py` | `LIFOCache` | LIFO |
-| 3. LRU Caching | `3-lru_cache.py` | `LRUCache` | LRU |
-| 4. MRU Caching | `4-mru_cache.py` | `MRUCache` | MRU |
-| 100. LFU Caching | `100-lfu_cache.py` | `LFUCache` | LFU |
-
-> Only task 0 (`BasicCache`) is implemented so far.
+| Task | File | Class | Policy | Status |
+|------|------|-------|--------|--------|
+| 0. Basic dictionary | `0-basic_cache.py` | `BasicCache` | No limit | ✅ |
+| 1. FIFO caching | `1-fifo_cache.py` | `FIFOCache` | FIFO | ✅ |
+| 2. LIFO Caching | `2-lifo_cache.py` | `LIFOCache` | LIFO | ✅ |
+| 3. LRU Caching | `3-lru_cache.py` | `LRUCache` | LRU | ✅ |
+| 4. MRU Caching | `4-mru_cache.py` | `MRUCache` | MRU | ✅ |
+| 100. LFU Caching | `100-lfu_cache.py` | `LFUCache` | LFU | ⬜ |
 
 ### Task 0 — `BasicCache`
 
