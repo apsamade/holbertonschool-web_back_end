@@ -5,7 +5,8 @@
       "Bash(git rm *)",
       "Bash(git add *)",
       "Bash(git commit --amend -m 'caching: add task 0 BasicCache *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git config *)"
     ]
   }
 }
