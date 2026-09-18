@@ -10,7 +10,31 @@
       "Bash(python3 -m pycodestyle filtered_logger.py)",
       "Bash(python3 -c ' *)",
       "Bash(python3 -c 'm=__import__\\(\"filtered_logger\"\\); print\\(bool\\(m.__doc__\\), bool\\(m.filter_datum.__doc__\\), bool\\(m.RedactingFormatter.__doc__\\), bool\\(m.RedactingFormatter.format.__doc__\\)\\)')",
-      "Bash(python3 -c 'm=__import__\\(\"filtered_logger\"\\); print\\(all\\([m.__doc__, m.filter_datum.__doc__, m.RedactingFormatter.__doc__, m.RedactingFormatter.format.__doc__, m.get_logger.__doc__]\\)\\)')"
+      "Bash(python3 -c 'm=__import__\\(\"filtered_logger\"\\); print\\(all\\([m.__doc__, m.filter_datum.__doc__, m.RedactingFormatter.__doc__, m.RedactingFormatter.format.__doc__, m.get_logger.__doc__]\\)\\)')",
+      "Bash(curl -sL -o __TRACKED_VAR__/archive.zip --max-time 60 https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-webstack/377/archive.zip)",
+      "Bash(file __TRACKED_VAR__/archive.zip)",
+      "Bash(pip --version)",
+      "Bash(python -c \"import flask, flask_cors; print\\('flask', flask.__version__\\)\")",
+      "Bash(pip install *)",
+      "Bash(API_HOST=0.0.0.0 API_PORT=5000 python -m api.v1.app)",
+      "Bash(curl -s -m 2 \"http://localhost:5000/api/v1/status\")",
+      "Bash(break)",
+      "Bash(curl -s \"http://localhost:5000/api/v1/status\")",
+      "Bash(curl -s \"http://localhost:5000/api/v1/stats\")",
+      "Bash(curl -s \"http://localhost:5000/api/v1/users\")",
+      "Bash(python -m pycodestyle api models)",
+      "Bash(echo \"pycodestyle exit: $?\")",
+      "Bash(:)",
+      "Bash(python -c ' *)",
+      "Bash(python -m pycodestyle api/v1/auth/auth.py)",
+      "Bash(python -m pycodestyle api/v1/auth/auth.py api/v1/app.py)",
+      "Bash(API_HOST=0.0.0.0 API_PORT=5000 AUTH_TYPE=auth python -m api.v1.app)",
+      "Bash(curl -s -w \" [HTTP %{http_code}]\\\\n\" \"http://localhost:5000/api/v1/status\")",
+      "Bash(curl -s -w \" [HTTP %{http_code}]\\\\n\" \"http://localhost:5000/api/v1/status/\")",
+      "Bash(curl -s -w \" [HTTP %{http_code}]\\\\n\" \"http://localhost:5000/api/v1/users\")",
+      "Bash(rm -f .db_User.json)",
+      "Bash(python -m pycodestyle api/v1/auth/basic_auth.py api/v1/app.py)",
+      "Bash(python -m pycodestyle api/v1/auth/auth.py api/v1/auth/basic_auth.py)"
     ]
   }
 }
