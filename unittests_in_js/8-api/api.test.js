@@ -1,8 +1,6 @@
 const request = require('request');
 const { expect } = require('chai');
 
-require('./api.js');
-
 describe('Index page', () => {
   const baseUrl = 'http://localhost:7865';
 
